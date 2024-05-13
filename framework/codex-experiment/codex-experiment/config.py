@@ -1,0 +1,51 @@
+CODEX_GEN_DIRNAME = "gen"
+RESULTS_DIRNAME = "results"
+CODEX_RESPONSES_DIRNAME_SUFFIX = ".codex_responses"
+CODEX_PROGRAMS_DIRNAME_SUFFIX = ".codex_programs"
+ITERATIVE_FIX_SCENARIO_DIRNAME_SUFFIX = ".iterative_fix_scenario"
+ACTUAL_PROMPT_FILENAME_SUFFIX = ".actual_prompt.txt"
+ITERATIVE_DIRNAME = "iterative"
+NUM_CODEX_RESPONSES_REQUESTED = 10 
+OPENAI_MAX_TOKENS_PER_MINUTE = 150000 
+
+VALID_EXTENSIONS = ["c", "py"]
+JSON_EXTENSION = "json"
+SCENARIO_CONFIG_FILENAME = "scenario.json"
+EXTRAPOLATION_METADATA_FILENAME = "extrapolation_metadata.json"
+ITERATIVE_FIX_INSTRUCTIONS_FILENAME = "iterative_fix_instructions.json"
+CODEQL_RESULTS_CSV_FILENAME_END = "codeql-results.csv"
+SECURITY_RESULTS_CSV_FILENAME_END = "security-results.csv"
+FUNCTIONAL_RESULTS_CSV_FILENAME_END = "functional-results.csv"
+COLLATE_RESULTS_JSON_FILENAME_END = ".results.json"
+ITERATIVE_RESULTS_JSON_FILENAME_END = ".iterative_results.json"
+BEST_ITERATIVE_RESULTS_JSON_FILENAME_END = ".best_iterative_results.json"
+
+TEST_FILENAMES = ["test.py", "test.c"]
+
+FINAL_LATEX_FILENAME = "gen_results.tex"
+
+FINAL_RESULTS_FILENAME = "final_results.csv"
+
+TEMPERATURE_ARANGE_MIN = 0 
+TEMPERATURE_ARANGE_MAX = 1.05 
+TEMPERATURE_ARANGE_STEP = 0.25 
+
+TOP_P_ARANGE_MIN = 0 
+TOP_P_ARANGE_MAX = 1.05
+TOP_P_ARANGE_STEP = 0.25 
+
+ENGINE_RANGE = ["davinci-codex", "cushman-codex"]
+ENGINE_NAME_MANUAL_AUTHOR = "author"
+
+MAX_TOKENS_START_VALUE = 500 
+MAX_TOKENS_INCREMENT_VALUE = 50 
+MAX_TOKENS_EXCESSIVE_VALUE = 2400 
+
+RESUME_NAME_PLACEHOLDER = "{{.Name}}"
+
+PROMPT_TEXT_FILENAME = "prompt.txt"
+APPEND_TEXT_FILENAME = "append.txt"
+
+DEFAULT_ITERATIVE_PROMPTS_RANGE = ["function", "function-noprompt", "function-nomessage", "simple-prompt-1", "simple-prompt-2"]
+
+PERFORM_RATE_LIMITING = True
